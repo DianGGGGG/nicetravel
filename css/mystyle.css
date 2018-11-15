@@ -1,0 +1,1180 @@
+@media(max-width:728px){
+    .navbar{
+        width:100%;
+    }
+    .navbar .brand{
+        float: left;
+    }
+    .navbar .brand img{
+        height: 50px;
+    }
+    .navbar .btn-menu{
+        display: block;
+        width: 30px;
+        height: 25px;
+        background-color: #000;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        float: right;
+        margin: 11px;
+    }
+    .navbar .btn-menu span{
+        width: 20px;
+        height: 3%;
+        background-color: #ccc;
+        margin: 8px auto;
+        display: block;
+    }
+    .con{
+        width: 100%;
+        overflow: hidden;
+    }
+    .nav-main ul{
+        position: relative;
+        background-color: #333;
+        display: none;
+    }
+    .nav-main ul li{
+        width: 100%;
+        padding: 5px;
+        display: block;
+        font-size: 13px;
+    }
+    .active{
+        background-color: black;
+    }
+    .nav-main ul li a{
+        color: #fff;
+    }
+
+
+
+
+    /* bg */
+    .bg .seach{
+        width: 80%;
+        height: 30px;
+        border-radius: 5px 0 0 5px;
+        border: none;
+        text-indent: 1em;
+        float: left;
+        outline: none;
+    }
+    .bg .sub{
+        width: 20%;
+        height: 30px;
+        float: right;
+        border-radius: 0 5px 5px 0;
+        background-color: #333;
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+    .bg form{
+        width: 80%;
+        padding:5px;
+        background-color: #333333;
+        border-radius: 5px;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+
+
+
+
+
+
+
+/* 01内容 */
+
+
+
+
+
+
+
+
+
+    .content h1,.content p{
+        color: #666666;
+        margin: 20px;
+        text-align: center;
+    }
+    .content ul{
+        overflow: hidden;
+        width: 100%;
+    }
+    .content ul>li{
+        width: 90%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+        margin: 10px auto;
+        float: none;
+        position: relative;
+    }
+    .content ul li img{
+        width: 100%;
+        display: block;
+        transition: 1s;
+    }
+    .content ul li a{
+        font-size: 15px;
+        display: block;
+        margin: 5px 0;
+        color: #666;
+    }
+    .content ul li a b{
+        color: #000;
+    }
+    .tra{
+        width: 100%;
+        overflow: hidden;
+    }
+    .content .place{
+        position: absolute;
+        display: block;
+        background-color: green;
+        color: #fff;
+        width: 100px;
+        font-size: 15px;
+        border-radius: 0 0 3px 0;
+        top: 5px;
+        text-align: center;
+    }
+    .content .left{
+        color: #ff6602;
+        float: left;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .content .right{
+        float: right;
+        color: #666;
+        font-size: smaller;
+        margin-top: 6px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 背景 */
+
+
+
+
+
+
+
+    .bg-main{
+        background-image: url('../image/headline.jpg');
+        background-size: 100% 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .bg-main .cont-middle{
+        width: 90%;
+        height: 90px;
+        color: #fff;
+        font-weight: bold;
+        margin: 10px auto;
+    }
+    .bg-main .cont-middle h3{
+        font-size: 10px;
+    }
+
+
+
+
+
+
+    /* 02content */
+
+
+
+
+
+
+
+
+    .main{
+        width: 100%;
+        background-color: #eee;
+    }
+    .content .the-ma{
+        position: absolute;
+        color: #fff;
+        font-weight: bold;
+        left: 39%;
+        top: 42%;
+        z-index: -1;
+    }
+    .content-main{
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .content-left>h3{
+        color: #666;
+        font-size: 30px;
+        padding: 20px 0;
+        border-bottom:1px dashed #666; 
+        text-align: center;
+    }
+    .content-left ul{
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .content-left ul li .con-left-pic img{
+        width: 100%;
+        display: block;
+    }
+    .content-left ul .nice{
+        background-color: #fff;
+        position: relative;
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 5px;
+        border-radius: 5px;
+        margin:20px;
+        float: none;
+    }
+    .content-left ul li .con-left-pic{
+        overflow: hidden; 
+        position: relative;
+    }
+    .content-left .con-left-tex .text-left{
+        display: none;
+    }
+    .content-left .con-left-tex .text-left i{
+        color: green;
+        font-style: normal;
+        border:1px solid green;
+        border-radius: 2px;
+        padding: 1px;
+    }
+    .text-right p>b{
+        font-size: 25px;
+        color: #ff6602;
+    }
+    .text-right{
+    }
+    .text-right .buy{
+        width: 80px;
+        height: 40px;
+        border: none;
+        background-color: #ff6602;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .con-left-tex>p{
+        display: none;
+    }
+    .con-left-pic .mar{
+        width: 80px;
+        height: 20px;
+        border-radius: 0 0 3px 0;
+        position: absolute;
+        line-height: 20px;
+        background-color: green;
+        color: #fff;
+        top: 0;
+        left: 0;
+        text-align: center;
+        font-size: 10px;
+    }
+    .nice>b{
+        position: absolute;
+        transform: rotate(45deg);
+        top:10px;
+        right: 0;
+        color: #ff6602;
+        font-size: 3px;
+    }
+    .add-all{
+        width: 200px;
+        height: 30px;
+        background-color: #fff;
+        border:1px solid #ccc;
+        cursor: pointer;
+        border-radius: 5px;
+        display: block;
+        margin: 20px auto;
+    }
+
+
+    .content-right{
+        display: none;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 03 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .content-left span{
+        font-size: 13px;
+        text-align: center;
+        color: #666;
+        margin-right: 5px;
+        display: inline-block;
+    }
+    .content-left .form-group{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .content-left .form-group input{
+        border:1px solid #ccc;
+        text-indent: 1em;
+        outline: none;
+        height: 30px;
+        width: 210px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .input-buy{
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    .content-left form{
+        margin: 0 auto;
+    }
+    .content-left form label{
+        color: #666;
+        font-size: 15px;
+    }
+    .content-left span{
+        display: inline-block;
+        padding:5px;
+    }
+    .content-left form .action{
+        background-color: green;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .content-left .buy-plan{
+        width: 80%;
+        height: 60px;
+        outline: none;
+        background-color: #ff6602;
+        color: #fff;
+        border: none;
+        display: block;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+    .content-left table{
+        width: 100%;
+        text-align: center;
+        height: 500px;
+        border: 1px solid #ccc;
+        margin: 30px auto 0;
+        border-collapse: collapse;
+    }
+    .content-left table button{
+        border:none;
+        width: 80px;
+        height: 30px;
+        background-color: #ff6602;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .content-left table thead tr{
+        height: 50px;
+    }
+    .content-left tr:nth-child(2n){
+        background-color: #fff;
+    }
+    .content-left tr{
+        border: 1px solid #ccc;
+    }
+    .content-left .btn{
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        color: #666;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 04 */
+
+
+
+
+
+
+
+
+
+    .content-left ul {
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .content-left .con-pic{
+        border: 1px solid #ccc;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        float: none;
+    }
+    .content-left .con-pic>img{
+        display: block;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 05 */
+
+
+
+
+
+
+
+
+
+.content-left>p{
+    margin: 10px 0;
+    color: #666;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.btn-menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+
+
+
+
+    .footer-top{
+        display: none;
+    }
+    .footer-bot{
+        background-color: #333;
+        color: #fff;
+        font-size: 10px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.nav-bg{
+    background-color: #333333;
+    width: 100%;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+.font-center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:728px) and  (max-width:1200px){
+    .navbar{
+        width:100%;
+    }
+    .navbar .brand{
+        float: left;
+    }
+    .navbar .brand img{
+        height: 50px;
+    }
+    .navbar .btn-menu{
+        display: block;
+        width: 30px;
+        height: 25px;
+        background-color: #000;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        float: right;
+        margin: 11px;
+    }
+    .navbar .btn-menu span{
+        width: 20px;
+        height: 3%;
+        background-color: #ccc;
+        margin: 8px auto;
+        display: block;
+    }
+    .con{
+        width: 100%;
+        overflow: hidden;
+    }
+    .nav-main ul{
+        position: relative;
+        background-color: #333;
+        display: none;
+    }
+    .nav-main ul li{
+        width: 100%;
+        padding: 5px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .active{
+        background-color: black;
+    }
+    .nav-main ul li a{
+        color: #fff;
+        line-height: 50px;
+    }
+
+
+
+
+    /* bg */
+    .bg .seach{
+        width: 80%;
+        height: 30px;
+        border-radius: 5px 0 0 5px;
+        border: none;
+        text-indent: 1em;
+        float: left;
+        outline: none;
+    }
+    .bg .sub{
+        width: 20%;
+        height: 30px;
+        float: right;
+        border-radius: 0 5px 5px 0;
+        background-color: #333;
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+    .bg form{
+        width: 80%;
+        padding:5px;
+        background-color: #333333;
+        border-radius: 5px;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+
+
+
+
+
+
+
+/* 01内容 */
+
+
+
+
+
+
+
+
+
+    .content h1,.content p{
+        color: #666666;
+        margin: 20px;
+        text-align: center;
+    }
+    .content{
+        width: 100%;
+    }
+    .content ul{
+        overflow: hidden;
+        margin: 20px auto;
+        width: 90%;
+    }
+    .content ul>li{
+        width: 45%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 5px;
+        float: left;
+        position: relative;
+    }
+    .content ul li img{
+        width: 100%;
+        display: block;
+        transition: 1s;
+    }
+    .content .the-ma{
+        position: absolute;
+        color: #fff;
+        font-weight: bold;
+        left: 39%;
+        top: 42%;
+        z-index: -1;
+    }
+    .content ul li a{
+        font-size: 15px;
+        display: block;
+        margin: 5px 0;
+        color: #666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: box;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .content ul li a b{
+        color: #000;
+    }
+    .tra{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .content .place{
+        position: absolute;
+        display: block;
+        background-color: green;
+        color: #fff;
+        width: 100px;
+        font-size: 15px;
+        border-radius: 0 0 3px 0;
+        top: 5px;
+        text-align: center;
+    }
+    .content .left{
+        color: #ff6602;
+        float: left;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .content .right{
+        float: right;
+        color: #666;
+        font-size: smaller;
+        margin-top: 6px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 背景 */
+
+
+
+
+
+
+
+    .bg-main{
+        background-image: url('../image/headline.jpg');
+        background-size: 100% 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .bg-main .cont-middle{
+        width: 90%;
+        height: 90px;
+        color: #fff;
+        font-weight: bold;
+        margin: 80px auto;
+    }
+    .bg-main .cont-middle h3{
+        font-size: 10px;
+    }
+
+
+
+
+
+
+    /* 02content */
+
+
+
+
+
+
+
+
+    .main{
+        width: 100%;
+        background-color: #eee;
+    }
+    .content-main{
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .content-left>h3{
+        color: #666;
+        font-size: 30px;
+        padding: 20px 0;
+        border-bottom:1px dashed #666; 
+        text-align: center;
+    }
+    .content-left ul{
+        margin: 0 auto;
+        overflow: hidden;
+        width: 90%;
+    }
+    .content-left ul li .con-left-pic img{
+        width: 100%;
+        display: block;
+    }
+    .content-left ul .nice{
+        background-color: #fff;
+        position: relative;
+        border: 1px solid #ccc;
+        width: 45%;
+        float: left;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        margin:20px 10px;
+    }
+    .content-left ul li .con-left-pic{
+        overflow: hidden; 
+        position: relative;
+    }
+    .content-left .con-left-tex .text-left{
+        display: none;
+    }
+    .content-left .con-left-tex .text-left i{
+        color: green;
+        font-style: normal;
+        border:1px solid green;
+        border-radius: 2px;
+        padding: 1px;
+    }
+    .text-right p>b{
+        font-size: 25px;
+        color: #ff6602;
+    }
+    .text-right{
+    }
+    .text-right .buy{
+        width: 80px;
+        height: 40px;
+        border: none;
+        background-color: #ff6602;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .con-left-tex>p{
+        display: none;
+    }
+    .con-left-pic .mar{
+        width: 80px;
+        height: 20px;
+        border-radius: 0 0 3px 0;
+        position: absolute;
+        line-height: 20px;
+        background-color: green;
+        color: #fff;
+        top: 0;
+        left: 0;
+        text-align: center;
+        font-size: 10px;
+    }
+    .nice>b{
+        position: absolute;
+        transform: rotate(45deg);
+        top:10px;
+        right: 0;
+        background-color: #000;
+        color: #ff6602;
+        font-size: 3px;
+    }
+    .add-all{
+        width: 200px;
+        height: 30px;
+        background-color: #fff;
+        border:1px solid #ccc;
+        cursor: pointer;
+        border-radius: 5px;
+        display: block;
+        margin: 20px auto;
+    }
+
+
+    .content-right{
+        display: none;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 03 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .content-left span{
+        font-size: 13px;
+        text-align: center;
+        color: #666;
+        margin-right: 5px;
+        display: inline-block;
+    }
+    .content-left .form-group{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .content-left .form-group input{
+        border:1px solid #ccc;
+        text-indent: 1em;
+        outline: none;
+        height: 30px;
+        width: 210px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .input-buy{
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    .content-left form{
+        margin: 0 auto;
+    }
+    .content-left form label{
+        color: #666;
+        font-size: 15px;
+    }
+    .content-left form span{
+        display: inline-block;
+        padding:5px;
+    }
+    .content-left form .action{
+        background-color: green;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .content-left .buy-plan{
+        width: 80%;
+        height: 60px;
+        outline: none;
+        background-color: #ff6602;
+        color: #fff;
+        border: none;
+        display: block;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+    .content-left table{
+        width: 100%;
+        text-align: center;
+        height: 500px;
+        border: 1px solid #ccc;
+        margin: 50px auto 0;
+        border-collapse: collapse;
+    }
+    .content-left table button{
+        border:none;
+        width: 80px;
+        height: 30px;
+        background-color: #ff6602;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .content-left table thead tr{
+        height: 50px;
+    }
+    .content-left tr:nth-child(2n){
+        background-color: #fff;
+    }
+    .content-left tr{
+        border: 1px solid #ccc;
+    }
+    .content-left .btn{
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        color: #666;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 04 */
+
+
+
+
+
+
+
+
+
+    .content-left ul {
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .content-left .con-pic{
+        border: 1px solid #ccc;
+        text-align: center;
+        margin: 5px;
+        width: 45%;
+        padding: 5px;
+        border-radius: 5px;
+        color: #666;
+        float: left;
+    }
+    .content-left .con-pic>img{
+        display: block;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 05 */
+
+
+
+
+
+
+
+
+
+.content-left>p{
+    margin: 10px 0;
+    color: #666;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.btn-menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+
+
+
+
+    .footer-top{
+        display: none;
+    }
+    .footer-bot{
+        background-color: #333;
+        color: #fff;
+        font-size: 10px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+}
+
+
+
+
